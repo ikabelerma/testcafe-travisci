@@ -4,7 +4,7 @@
   "description": "Basic TestCafe API example",
   "main": "test.js",
   "scripts": {
-    "test": "testcafe firefox test.js --app \"node server.js\""
+    "test": "testcafe chrome,firefox test.js --app \"node server.js\""
   },
   "repository": {
     "type": "git",
